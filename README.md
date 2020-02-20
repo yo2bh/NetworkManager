@@ -12,8 +12,8 @@ It'll open the Swift Package manager in Xcode.
 # Test App
 Example of Swift Package Manager app fetches the top tens free apps on app store.
 
-![Screenshot](Screenshots/LaunchScreen.png)
+<img src="Screenshots/LaunchScreen.png" width="400" height="650">
 
-![Screenshot](Screenshots/LoadingScreen.png)
+<img src="Screenshots/LoadingScreen.png" width="400" height="650">
 
-![Screenshot](Screenshots/TopTenScreen.png)
+<img src="Screenshots/TopTenScreen.png" width="400" height="650">
