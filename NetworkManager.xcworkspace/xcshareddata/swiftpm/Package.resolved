@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NetworkManager",
+        "repositoryURL": "https://github.com/yo2bh/NetworkManager.git",
+        "state": {
+          "branch": "master",
+          "revision": "d74246ecf90cd2463a5c621f382f6b1a0508f77d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
