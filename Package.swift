@@ -13,8 +13,6 @@ let package = Package(
   targets: [
     .target(
       name: "NetworkManager",
-      dependencies: [],
-      path: ".",
-      sources : ["NetworkManager/Sources/NetworkManager"]),
+      dependencies: []),
   ]
 )
