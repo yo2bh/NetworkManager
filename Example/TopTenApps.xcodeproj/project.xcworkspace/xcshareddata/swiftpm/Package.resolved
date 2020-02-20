@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "0c8cb78d05b6d067ee331c05058ff4dedcb45ffa",
+          "version": "5.0.0"
+        }
+      },
+      {
+        "package": "NetworkManager",
+        "repositoryURL": "https://github.com/yo2bh/NetworkManager.git",
+        "state": {
+          "branch": "master",
+          "revision": "79ffbdaeabf1af139ca5f6e38cf6756e3c5b1064",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

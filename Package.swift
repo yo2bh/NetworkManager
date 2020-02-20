@@ -4,19 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "NetworkManager",
-    products: [
-        .library(
-            name: "NetworkManager",
-            type: .dynamic,
-            targets: ["NetworkManager"]),
-    ],
-    dependencies: [
-         .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.0.0"),
-    ],
-    targets: [
-        .target(
-            name: "NetworkManager",
-            dependencies: []),
-    ]
+  name: "NetworkManager",
+  products: [
+    .library(
+      name: "NetworkManager",
+      targets: ["NetworkManager"]),
+  ],
+  dependencies: [
+  ],
+  targets: [
+    .target(
+      name: "NetworkManager",
+      dependencies: []),
+  ]
 )
