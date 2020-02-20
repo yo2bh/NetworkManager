@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "group:../TopTenApps/TopTenApps.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:NetworkManager.xcodeproj">
    </FileRef>
 </Workspace>
