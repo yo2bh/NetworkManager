@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A14EBBB23C4681B00D918EF /* TopTenAppsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A14EBBA23C4681B00D918EF /* TopTenAppsModel.swift */; };
 		3A14EBC223C486E200D918EF /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A14EBC123C486E200D918EF /* ActivityIndicator.swift */; };
-		3A2F469E23FD4EF70030B085 /* NetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = 3A2F469D23FD4EF70030B085 /* NetworkManager */; };
-		3A2F469F23FD4EF70030B085 /* NetworkManager in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 3A2F469D23FD4EF70030B085 /* NetworkManager */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3A3AA44923FE477100D675AC /* NetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = 3A3AA44823FE477100D675AC /* NetworkManager */; };
 		3AB4B0BF23BDFB0C0006BFBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4B0BE23BDFB0C0006BFBA /* AppDelegate.swift */; };
 		3AB4B0C323BDFB0C0006BFBA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4B0C223BDFB0C0006BFBA /* MainViewController.swift */; };
 		3AB4B0C623BDFB0C0006BFBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB4B0C423BDFB0C0006BFBA /* Main.storyboard */; };
@@ -27,7 +26,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3A2F469F23FD4EF70030B085 /* NetworkManager in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2F469E23FD4EF70030B085 /* NetworkManager in Frameworks */,
+				3A3AA44923FE477100D675AC /* NetworkManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +109,7 @@
 			);
 			name = TopTenApps;
 			packageProductDependencies = (
-				3A2F469D23FD4EF70030B085 /* NetworkManager */,
+				3A3AA44823FE477100D675AC /* NetworkManager */,
 			);
 			productName = TopTenApps;
 			productReference = 3AB4B0BB23BDFB0C0006BFBA /* TopTenApps.app */;
@@ -142,7 +140,7 @@
 			);
 			mainGroup = 3AB4B0B223BDFB0C0006BFBA;
 			packageReferences = (
-				3A2F469C23FD4EF70030B085 /* XCRemoteSwiftPackageReference "NetworkManager" */,
+				3A3AA44723FE477100D675AC /* XCRemoteSwiftPackageReference "NetworkManager" */,
 			);
 			productRefGroup = 3AB4B0BC23BDFB0C0006BFBA /* Products */;
 			projectDirPath = "";
@@ -374,7 +372,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3A2F469C23FD4EF70030B085 /* XCRemoteSwiftPackageReference "NetworkManager" */ = {
+		3A3AA44723FE477100D675AC /* XCRemoteSwiftPackageReference "NetworkManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/yo2bh/NetworkManager.git";
 			requirement = {
@@ -385,9 +383,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3A2F469D23FD4EF70030B085 /* NetworkManager */ = {
+		3A3AA44823FE477100D675AC /* NetworkManager */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A2F469C23FD4EF70030B085 /* XCRemoteSwiftPackageReference "NetworkManager" */;
+			package = 3A3AA44723FE477100D675AC /* XCRemoteSwiftPackageReference "NetworkManager" */;
 			productName = NetworkManager;
 		};
 /* End XCSwiftPackageProductDependency section */
